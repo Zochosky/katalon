@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>W Polach wpisujemy niepoprawny formart adresu e-mail oraz niepoprawny format hasła. Akceptujemy dane poprzez użycie zielonego przycisku &quot;Sign in&quot;</description>
+   <name>Logowanie do aplikacji z niepoprawnym formatem danych</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b94b0c6b-c01a-453c-9c55-0ae939aeb5ce</testCaseGuid>
+   <variable>
+      <defaultValue>'Mateusz Żochowski'</defaultValue>
+      <description></description>
+      <id>c1d86077-c1bf-4ac7-8acf-f34347be1a6f</id>
+      <masked>false</masked>
+      <name>username_exp</name>
+   </variable>
+   <variable>
+      <defaultValue>'Email address'</defaultValue>
+      <description></description>
+      <id>b3276014-1850-4295-9fac-9820e49544c2</id>
+      <masked>false</masked>
+      <name>str_email_exp</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password'</defaultValue>
+      <description></description>
+      <id>5d411ece-8683-49fc-801e-87bec18ec06b</id>
+      <masked>false</masked>
+      <name>str_pwd_exp</name>
+   </variable>
+   <variable>
+      <defaultValue>'matt.zochowski'</defaultValue>
+      <description></description>
+      <id>530feada-f8bc-40cf-baf7-836191206ac6</id>
+      <masked>false</masked>
+      <name>incorrect_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'+Hqt5aHdtb8='</defaultValue>
+      <description></description>
+      <id>39c00073-60f3-4878-acbf-6da433c3fe4d</id>
+      <masked>false</masked>
+      <name>incorrect_pwd</name>
+   </variable>
+   <variable>
+      <defaultValue>'Invalid email address.'</defaultValue>
+      <description></description>
+      <id>bae09596-2b12-42c8-9362-312735e050fd</id>
+      <masked>false</masked>
+      <name>str_invalid_email_exp</name>
+   </variable>
+   <variable>
+      <defaultValue>'Invalid password.'</defaultValue>
+      <description></description>
+      <id>fc05474c-316b-4a79-882c-088642c584d8</id>
+      <masked>false</masked>
+      <name>str_invalid_pwd_exp</name>
+   </variable>
+</TestCaseEntity>

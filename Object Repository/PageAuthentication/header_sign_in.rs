@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>div[class=&quot;header_user_info&quot;]>a[class=&quot;login&quot;]</description>
+   <name>header_sign_in</name>
+   <tag></tag>
+   <elementGuidId>853ab36f-d588-408f-b4c4-53819b1963f9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div[class=&quot;header_user_info&quot;]>a[class=&quot;login&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

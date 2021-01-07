@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Logowanie do aplikacji http://automationpractice.com/ z poprawnym uwierzytelnieniem</description>
+   <name>Logowanie do aplikacji z poprawnymi danymi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3877115d-2a4d-4108-ba3f-8ad03a20566c</testCaseGuid>
+   <variable>
+      <defaultValue>'Mateusz Żochowski'</defaultValue>
+      <description>Nazwa uzytkownika</description>
+      <id>365e6a51-4221-4f64-8f75-c3889f7c2c25</id>
+      <masked>false</masked>
+      <name>username_exp</name>
+   </variable>
+   <variable>
+      <defaultValue>'Email address'</defaultValue>
+      <description></description>
+      <id>490ef2b6-faeb-4ea1-8110-6f0bf47ffff0</id>
+      <masked>false</masked>
+      <name>str_email_exp</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password'</defaultValue>
+      <description></description>
+      <id>fcd90cb4-551d-4a21-95ea-0b912f68148d</id>
+      <masked>false</masked>
+      <name>str_pwd_exp</name>
+   </variable>
+</TestCaseEntity>

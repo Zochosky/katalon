@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>automationpractice_tester</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Adres strony automationpractice</description>
+      <initValue>'http://automationpractice.com/'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Nazwa emaila użytkownika który jest zarejestrowany w bazie serwisu</description>
+      <initValue>'matt.zochowski@gmail.com'</initValue>
+      <name>registered_user_email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Nazwa emaila użytkownika który jest nie zarejestrowany w bazie serwisu</description>
+      <initValue>'matt.zochowski+1@gmail.com'</initValue>
+      <name>unregistered_user_email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Poprawne hasło użytkownika który jest zarejestrowany</description>
+      <initValue>'lO7Db3JHUsk1YDszLiFOrQ=='</initValue>
+      <name>correct_user_pwd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Niepoprawne hasło użytkownika który jest zarejestrowany</description>
+      <initValue>'lO7Db3JHUsnSijAT9GEifQ=='</initValue>
+      <name>incorrect_user_pwd</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

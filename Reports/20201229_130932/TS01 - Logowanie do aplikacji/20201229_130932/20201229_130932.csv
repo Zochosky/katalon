@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01 - Logowanie do aplikacji,Firefox 84.0,Poprawne i nie poprawne logowanie do aplikacji,,2020-12-29 13:09:34,2020-12-29 13:10:06,"31,657s",PASSED
+,,,,,,,
+Test Cases/Podstawowe funkcjonalnosci/Logowanie do aplikacji/Logowanie do aplikacji z niepoprawnym formatem danych,Firefox 84.0,"W Polach wpisujemy niepoprawny formart adresu e-mail oraz niepoprawny format hasła. Akceptujemy dane poprzez użycie zielonego przycisku ""Sign in""",,2020-12-29 13:09:35,2020-12-29 13:09:51,"16,517s",PASSED
+openBrowser(rawUrl = url),Firefox 84.0,,,2020-12-29 13:09:35,2020-12-29 13:09:42,"6,710s",PASSED
+"click(findTestObject(""Object Repository/PageAuthentication/header_sign_in""))",Firefox 84.0,,,2020-12-29 13:09:42,2020-12-29 13:09:44,"1,949s",PASSED
+"setText(findTestObject(""Object Repository/PageAuthentication/inp_email_id""), incorrect_email)",Firefox 84.0,,,2020-12-29 13:09:44,2020-12-29 13:09:44,"0,732s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/PageAuthentication/inp_pwd_id""), correct_user_pwd)",Firefox 84.0,,,2020-12-29 13:09:44,2020-12-29 13:09:45,"0,365s",PASSED
+"verifyElementClickable(findTestObject(""Object Repository/PageAuthentication/str_recover_pwd""))",Firefox 84.0,,,2020-12-29 13:09:45,2020-12-29 13:09:45,"0,520s",PASSED
+"str_email_element = getText(findTestObject(""Object Repository/PageAuthentication/label_email""))",Firefox 84.0,,,2020-12-29 13:09:45,2020-12-29 13:09:45,"0,280s",PASSED
+assert str_email_exp == str_email_element,Firefox 84.0,,,2020-12-29 13:09:45,2020-12-29 13:09:45,"0,001s",PASSED
+"str_pwd_element = getText(findTestObject(""Object Repository/PageAuthentication/label_pwd""))",Firefox 84.0,,,2020-12-29 13:09:45,2020-12-29 13:09:46,"0,302s",PASSED
+assert str_pwd_exp == str_pwd_element,Firefox 84.0,,,2020-12-29 13:09:46,2020-12-29 13:09:46,"0,000s",PASSED
+"click(findTestObject(""Object Repository/PageAuthentication/btn_login""))",Firefox 84.0,,,2020-12-29 13:09:46,2020-12-29 13:09:47,"1,079s",PASSED
+"str_invalid_email_element = getText(findTestObject(""Object Repository/PageAuthentication/invalid_email_xpath""))",Firefox 84.0,,,2020-12-29 13:09:47,2020-12-29 13:09:47,"0,499s",PASSED
+assert str_invalid_email_exp == str_invalid_email_element,Firefox 84.0,,,2020-12-29 13:09:47,2020-12-29 13:09:47,"0,000s",PASSED
+"setText(findTestObject(""Object Repository/PageAuthentication/inp_email_id""), registered_user_email)",Firefox 84.0,,,2020-12-29 13:09:47,2020-12-29 13:09:48,"0,831s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/PageAuthentication/inp_pwd_id""), incorrect_pwd)",Firefox 84.0,,,2020-12-29 13:09:48,2020-12-29 13:09:49,"0,325s",PASSED
+"click(findTestObject(""Object Repository/PageAuthentication/btn_login""))",Firefox 84.0,,,2020-12-29 13:09:49,2020-12-29 13:09:50,"1,534s",PASSED
+"str_invalid_pwd_element = getText(findTestObject(""PageAuthentication/invalid_password_xpath""))",Firefox 84.0,,,2020-12-29 13:09:50,2020-12-29 13:09:51,"0,519s",PASSED
+assert str_invalid_pwd_exp == str_invalid_pwd_element,Firefox 84.0,,,2020-12-29 13:09:51,2020-12-29 13:09:51,"0,000s",PASSED
+closeBrowser(),Firefox 84.0,,,2020-12-29 13:09:51,2020-12-29 13:09:51,"0,577s",PASSED
+,,,,,,,
+Test Cases/Podstawowe funkcjonalnosci/Logowanie do aplikacji/Logowanie do aplikacji z poprawnymi danymi,Firefox 84.0,Logowanie do aplikacji http://automationpractice.com/ z poprawnym uwierzytelnieniem,,2020-12-29 13:09:51,2020-12-29 13:10:06,"15,003s",PASSED
+openBrowser(rawUrl = url),Firefox 84.0,,,2020-12-29 13:09:51,2020-12-29 13:09:57,"5,483s",PASSED
+"click(findTestObject(""Object Repository/PageAuthentication/header_sign_in""))",Firefox 84.0,,,2020-12-29 13:09:57,2020-12-29 13:09:59,"1,981s",PASSED
+"verifyElementClickable(findTestObject(""Object Repository/PageAuthentication/str_recover_pwd""))",Firefox 84.0,,,2020-12-29 13:09:59,2020-12-29 13:09:59,"0,419s",PASSED
+"str_email_element = getText(findTestObject(""Object Repository/PageAuthentication/label_email""))",Firefox 84.0,,,2020-12-29 13:09:59,2020-12-29 13:09:59,"0,303s",PASSED
+assert str_email_exp == str_email_element,Firefox 84.0,,,2020-12-29 13:09:59,2020-12-29 13:09:59,"0,001s",PASSED
+"str_pwd_element = getText(findTestObject(""Object Repository/PageAuthentication/label_pwd""))",Firefox 84.0,,,2020-12-29 13:09:59,2020-12-29 13:10:00,"0,300s",PASSED
+assert str_pwd_exp == str_pwd_element,Firefox 84.0,,,2020-12-29 13:10:00,2020-12-29 13:10:00,"0,000s",PASSED
+"setText(findTestObject(""Object Repository/PageAuthentication/inp_email_id""), registered_user_email)",Firefox 84.0,,,2020-12-29 13:10:00,2020-12-29 13:10:00,"0,604s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/PageAuthentication/inp_pwd_id""), correct_user_pwd)",Firefox 84.0,,,2020-12-29 13:10:00,2020-12-29 13:10:01,"0,326s",PASSED
+"click(findTestObject(""Object Repository/PageAuthentication/btn_login""))",Firefox 84.0,,,2020-12-29 13:10:01,2020-12-29 13:10:03,"2,547s",PASSED
+"str_username_elem = getText(findTestObject(""Object Repository/PageMyAccount/str_username""))",Firefox 84.0,,,2020-12-29 13:10:03,2020-12-29 13:10:04,"0,505s",PASSED
+assert username_exp == str_username_elem,Firefox 84.0,,,2020-12-29 13:10:04,2020-12-29 13:10:04,"0,000s",PASSED
+"click(findTestObject(""Object Repository/PageMyAccount/header_sing_out""))",Firefox 84.0,,,2020-12-29 13:10:04,2020-12-29 13:10:06,"1,821s",PASSED
+closeBrowser(),Firefox 84.0,,,2020-12-29 13:10:06,2020-12-29 13:10:06,"0,589s",PASSED

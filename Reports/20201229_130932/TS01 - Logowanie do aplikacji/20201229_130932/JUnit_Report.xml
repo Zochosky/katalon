@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS01 - Logowanie do aplikacji" time="31.773" tests="2" failures="0" errors="0">
+   <testsuite name="TS01 - Logowanie do aplikacji" tests="2" failures="0" errors="0" time="31.773" timestamp="2020-12-29 13:09:34" hostname="Mateusz - DESKTOP-ME2VE22.home" id="Test Suites/TS01 - Logowanie do aplikacji">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Mateusz\\Katalon Studio\\automationpractice_with_katalon_6962\\Reports\\20201229_130932\\TS01 - Logowanie do aplikacji\\20201229_130932"/>
+         <property name="logFiles" value="C:\\Users\\Mateusz\\Katalon Studio\\automationpractice_with_katalon_6962\\Reports\\20201229_130932\\TS01 - Logowanie do aplikacji\\20201229_130932\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Mateusz - DESKTOP-ME2VE22.home"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.2.205"/>
+         <property name="browser" value="Firefox 84.0"/>
+         <property name="hostAddress" value="192.168.1.43"/>
+         <property name="sessionId" value="d2bc17d2-33ca-42f6-bb25-7696ada45ea5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Podstawowe funkcjonalnosci/Logowanie do aplikacji/Logowanie do aplikacji z niepoprawnym formatem danych" time="16.517" classname="Test Cases/Podstawowe funkcjonalnosci/Logowanie do aplikacji/Logowanie do aplikacji z niepoprawnym formatem danych" status="PASSED">
+         <system-out><![CDATA[2020-12-29 13:09:35 - [TEST_CASE][PASSED] - Test Cases/Podstawowe funkcjonalnosci/Logowanie do aplikacji/Logowanie do aplikacji z niepoprawnym formatem danych: Test Cases/Podstawowe funkcjonalnosci/Logowanie do aplikacji/Logowanie do aplikacji z niepoprawnym formatem danych
+
+2020-12-29 13:09:35 - [TEST_STEP][PASSED] - openBrowser(rawUrl = url): Browser is opened with url: 'http://automationpractice.com/'
+
+2020-12-29 13:09:35 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-12-29 13:09:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-29 13:09:42 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/'
+
+2020-12-29 13:09:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PageAuthentication/header_sign_in")): Object: 'Object Repository/PageAuthentication/header_sign_in' is clicked on
+
+2020-12-29 13:09:44 - [MESSAGE][PASSED] - Object: 'Object Repository/PageAuthentication/header_sign_in' is clicked on
+
+2020-12-29 13:09:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PageAuthentication/inp_email_id"), incorrect_email): Text 'matt.zochowski' is set on object 'Object Repository/PageAuthentication/inp_email_id'
+
+2020-12-29 13:09:44 - [MESSAGE][PASSED] - Text 'matt.zochowski' is set on object 'Object Repository/PageAuthentication/inp_email_id'
+
+2020-12-29 13:09:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/PageAuthentication/inp_pwd_id"), correct_user_pwd): Text ****** has been set on object 'Object Repository/PageAuthentication/inp_pwd_id'
+
+2020-12-29 13:09:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PageAuthentication/inp_pwd_id'
+
+2020-12-29 13:09:45 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/PageAuthentication/str_recover_pwd")): Object 'Object Repository/PageAuthentication/str_recover_pwd' is clickable
+
+2020-12-29 13:09:45 - [MESSAGE][PASSED] - Object 'Object Repository/PageAuthentication/str_recover_pwd' is clickable
+
+2020-12-29 13:09:45 - [TEST_STEP][PASSED] - str_email_element = getText(findTestObject("Object Repository/PageAuthentication/label_email")): Text of object 'Object Repository/PageAuthentication/label_email' is: 'Email address'
+
+2020-12-29 13:09:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/PageAuthentication/label_email' is: 'Email address'
+
+2020-12-29 13:09:45 - [TEST_STEP][PASSED] - assert str_email_exp == str_email_element: null
+
+2020-12-29 13:09:45 - [TEST_STEP][PASSED] - str_pwd_element = getText(findTestObject("Object Repository/PageAuthentication/label_pwd")): Text of object 'Object Repository/PageAuthentication/label_pwd' is: 'Password'
+
+2020-12-29 13:09:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/PageAuthentication/label_pwd' is: 'Password'
+
+2020-12-29 13:09:46 - [TEST_STEP][PASSED] - assert str_pwd_exp == str_pwd_element: null
+
+2020-12-29 13:09:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PageAuthentication/btn_login")): Object: 'Object Repository/PageAuthentication/btn_login' is clicked on
+
+2020-12-29 13:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/PageAuthentication/btn_login' is clicked on
+
+2020-12-29 13:09:47 - [TEST_STEP][PASSED] - str_invalid_email_element = getText(findTestObject("Object Repository/PageAuthentication/invalid_email_xpath")): Text of object 'Object Repository/PageAuthentication/invalid_email_xpath' is: 'Invalid email address.'
+
+2020-12-29 13:09:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/PageAuthentication/invalid_email_xpath' is: 'Invalid email address.'
+
+2020-12-29 13:09:47 - [TEST_STEP][PASSED] - assert str_invalid_email_exp == str_invalid_email_element: null
+
+2020-12-29 13:09:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PageAuthentication/inp_email_id"), registered_user_email): Text 'matt.zochowski@gmail.com' is set on object 'Object Repository/PageAuthentication/inp_email_id'
+
+2020-12-29 13:09:48 - [MESSAGE][PASSED] - Text 'matt.zochowski@gmail.com' is set on object 'Object Repository/PageAuthentication/inp_email_id'
+
+2020-12-29 13:09:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/PageAuthentication/inp_pwd_id"), incorrect_pwd): Text ****** has been set on object 'Object Repository/PageAuthentication/inp_pwd_id'
+
+2020-12-29 13:09:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PageAuthentication/inp_pwd_id'
+
+2020-12-29 13:09:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PageAuthentication/btn_login")): Object: 'Object Repository/PageAuthentication/btn_login' is clicked on
+
+2020-12-29 13:09:50 - [MESSAGE][PASSED] - Object: 'Object Repository/PageAuthentication/btn_login' is clicked on
+
+2020-12-29 13:09:50 - [TEST_STEP][PASSED] - str_invalid_pwd_element = getText(findTestObject("PageAuthentication/invalid_password_xpath")): Text of object 'Object Repository/PageAuthentication/invalid_password_xpath' is: 'Invalid password.'
+
+2020-12-29 13:09:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/PageAuthentication/invalid_password_xpath' is: 'Invalid password.'
+
+2020-12-29 13:09:51 - [TEST_STEP][PASSED] - assert str_invalid_pwd_exp == str_invalid_pwd_element: null
+
+2020-12-29 13:09:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-29 13:09:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Podstawowe funkcjonalnosci/Logowanie do aplikacji/Logowanie do aplikacji z poprawnymi danymi" time="15.003" classname="Test Cases/Podstawowe funkcjonalnosci/Logowanie do aplikacji/Logowanie do aplikacji z poprawnymi danymi" status="PASSED">
+         <system-out><![CDATA[2020-12-29 13:09:51 - [TEST_CASE][PASSED] - Test Cases/Podstawowe funkcjonalnosci/Logowanie do aplikacji/Logowanie do aplikacji z poprawnymi danymi: Test Cases/Podstawowe funkcjonalnosci/Logowanie do aplikacji/Logowanie do aplikacji z poprawnymi danymi
+
+2020-12-29 13:09:51 - [TEST_STEP][PASSED] - openBrowser(rawUrl = url): Browser is opened with url: 'http://automationpractice.com/'
+
+2020-12-29 13:09:51 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-12-29 13:09:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-29 13:09:57 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/'
+
+2020-12-29 13:09:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PageAuthentication/header_sign_in")): Object: 'Object Repository/PageAuthentication/header_sign_in' is clicked on
+
+2020-12-29 13:09:59 - [MESSAGE][PASSED] - Object: 'Object Repository/PageAuthentication/header_sign_in' is clicked on
+
+2020-12-29 13:09:59 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/PageAuthentication/str_recover_pwd")): Object 'Object Repository/PageAuthentication/str_recover_pwd' is clickable
+
+2020-12-29 13:09:59 - [MESSAGE][PASSED] - Object 'Object Repository/PageAuthentication/str_recover_pwd' is clickable
+
+2020-12-29 13:09:59 - [TEST_STEP][PASSED] - str_email_element = getText(findTestObject("Object Repository/PageAuthentication/label_email")): Text of object 'Object Repository/PageAuthentication/label_email' is: 'Email address'
+
+2020-12-29 13:09:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/PageAuthentication/label_email' is: 'Email address'
+
+2020-12-29 13:09:59 - [TEST_STEP][PASSED] - assert str_email_exp == str_email_element: null
+
+2020-12-29 13:09:59 - [TEST_STEP][PASSED] - str_pwd_element = getText(findTestObject("Object Repository/PageAuthentication/label_pwd")): Text of object 'Object Repository/PageAuthentication/label_pwd' is: 'Password'
+
+2020-12-29 13:10:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/PageAuthentication/label_pwd' is: 'Password'
+
+2020-12-29 13:10:00 - [TEST_STEP][PASSED] - assert str_pwd_exp == str_pwd_element: null
+
+2020-12-29 13:10:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PageAuthentication/inp_email_id"), registered_user_email): Text 'matt.zochowski@gmail.com' is set on object 'Object Repository/PageAuthentication/inp_email_id'
+
+2020-12-29 13:10:00 - [MESSAGE][PASSED] - Text 'matt.zochowski@gmail.com' is set on object 'Object Repository/PageAuthentication/inp_email_id'
+
+2020-12-29 13:10:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/PageAuthentication/inp_pwd_id"), correct_user_pwd): Text ****** has been set on object 'Object Repository/PageAuthentication/inp_pwd_id'
+
+2020-12-29 13:10:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PageAuthentication/inp_pwd_id'
+
+2020-12-29 13:10:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PageAuthentication/btn_login")): Object: 'Object Repository/PageAuthentication/btn_login' is clicked on
+
+2020-12-29 13:10:03 - [MESSAGE][PASSED] - Object: 'Object Repository/PageAuthentication/btn_login' is clicked on
+
+2020-12-29 13:10:03 - [TEST_STEP][PASSED] - str_username_elem = getText(findTestObject("Object Repository/PageMyAccount/str_username")): Text of object 'Object Repository/PageMyAccount/str_username' is: 'Mateusz Żochowski'
+
+2020-12-29 13:10:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/PageMyAccount/str_username' is: 'Mateusz Żochowski'
+
+2020-12-29 13:10:04 - [TEST_STEP][PASSED] - assert username_exp == str_username_elem: null
+
+2020-12-29 13:10:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PageMyAccount/header_sing_out")): Object: 'Object Repository/PageMyAccount/header_sing_out' is clicked on
+
+2020-12-29 13:10:06 - [MESSAGE][PASSED] - Object: 'Object Repository/PageMyAccount/header_sing_out' is clicked on
+
+2020-12-29 13:10:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-29 13:10:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-12-29 13:09:34 - [TEST_SUITE][PASSED] - TS01 - Logowanie do aplikacji: Test Cases/Podstawowe funkcjonalnosci/Logowanie do aplikacji/Logowanie do aplikacji z poprawnymi danymi]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
