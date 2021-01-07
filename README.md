@@ -1,2 +1,2 @@
-# katalon_studio
-# katalon
+# Please KatalonStudio 7.7.2
+# Please run test as profile: automationpractice_tester
